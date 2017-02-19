@@ -5,7 +5,6 @@ class Api::V1::BugsController < ApplicationController
     @bug = Bug.new(bug_params)
 
     if @bug.save!
-      log_in!(@bug)
       render :show
     else
       render json: "Sorry. Display some error message here."
