@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.App-grid {
+  width: 80%;
+  max-width: 960px; 
+  margin: auto;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
